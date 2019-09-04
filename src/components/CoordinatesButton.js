@@ -5,12 +5,12 @@ export default class CoordinatesButton extends Component {
   contructor() {
     super()
     
-    onReceiveCoordinates() => {
-      
-    }
+    const receive = this.props.onReceiveCoordinates
     
     render() {
-      
+      return (
+        <button onClick></button>
+        )
     }
     
   }
