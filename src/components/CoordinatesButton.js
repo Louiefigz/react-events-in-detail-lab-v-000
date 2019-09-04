@@ -10,7 +10,9 @@ export default class CoordinatesButton extends Component {
     render() {
       return (
         <button 
-        onClick={this.props.onReceiveCoordinates}></button>
+        onClick={this.handleClick}>
+        Coords
+        </button>
         )
     }
     
