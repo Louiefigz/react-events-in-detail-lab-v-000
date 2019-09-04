@@ -2,8 +2,7 @@
 import React from 'react';
 
 export default class CoordinatesButton extends Component {
-    constructor(props){
-        super(props);
+
         
         this.onReceiveCoordinates = this.props.onReceiveCoordinates.bind(this);
     
@@ -12,7 +11,7 @@ export default class CoordinatesButton extends Component {
       
       return pointer
     }
-    }
+
     
     render() {
       return (
@@ -20,5 +19,4 @@ export default class CoordinatesButton extends Component {
         )
     }
     
-  }
 }
