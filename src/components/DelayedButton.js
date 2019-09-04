@@ -1,10 +1,10 @@
 // Code DelayedButton Component Here
 import React, { Component } from 'react'
 
-export default class CoordinatesButton extends Component {
+export default class DelayedButton extends Component {
 
     handleClick(event) {
-      this.props.onReceiveCoordinates([event.clientX, event.clientY])
+      this.props.onDelayedClick([event.clientX, event.clientY])
     }
     
     render() {
