@@ -3,7 +3,9 @@ import React from 'react';
 
 export default class CoordinatesButton extends Component {
 
-    handleClick()
+    handleClick(event) {
+      
+    }
     
     onReceiveCoordinates(event) {
       const pointer = [event.clientX, event.clientY]
