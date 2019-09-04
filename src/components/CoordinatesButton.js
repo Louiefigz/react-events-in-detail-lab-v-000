@@ -7,13 +7,6 @@ export default class CoordinatesButton extends Component {
       this.props.onReceiveCoordinates([event.clientX, event.clientY])
     }
     
-    onReceiveCoordinates(event) {
-      const pointer = [event.clientX, event.clientY]
-      
-      return pointer
-    }
-
-    
     render() {
       return (
         <button onClick={this.props.onReceiveCoordinates}></button>
