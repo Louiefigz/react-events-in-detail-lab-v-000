@@ -5,8 +5,8 @@ export default class CoordinatesButton extends Component {
   contructor(props) {
     super(props)
     
-    onReceiveCoordinates(el) {
-      el.clientX
+    onReceiveCoordinates(event) {
+      const pointer = [event.clientX 
     }
     
     render(props) {
