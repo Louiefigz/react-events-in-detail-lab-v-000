@@ -11,7 +11,7 @@ export default class CoordinatesButton extends Component {
       return pointer
     }
     
-    render(props) {
+    render() {
       return (
         <button onClick={this.props.onReceiveCoordinates}></button>
         )
