@@ -2,8 +2,8 @@
 import React from 'react';
 
 export default class CoordinatesButton extends Component {
-  contructor(props) {
-    super(props)
+  contructor() {
+    super()
     
     onReceiveCoordinates(event) {
       const pointer = [event.clientX, event.clientY]
