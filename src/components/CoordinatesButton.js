@@ -5,7 +5,9 @@ export default class CoordinatesButton extends Component {
   contructor(props) {
     super(props)
     
-    onReceiveCoordinates(el) 
+    onReceiveCoordinates(el) {
+      el.clientX
+    }
     
     render(props) {
       return (
